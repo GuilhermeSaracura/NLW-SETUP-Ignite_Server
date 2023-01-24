@@ -38,6 +38,8 @@ Clone o projeto e siga os passos abaixo:
 # Instalando as depêndencias do servidor:
 $ npm install
 $ npx prisma migrate deploy
+#Para popular o banco de dados é necessário rodar o comando:
+$ npx prisma db seed
 #Iniciando o projeto:
 $ npm run dev
 ```
